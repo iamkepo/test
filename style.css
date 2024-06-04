@@ -1,0 +1,31 @@
+
+body {
+  --background-color: #A9552E; /* Définir la couleur de fond par défaut */
+  --text-color: #000; /* Définir la couleur du texte par défaut */
+}
+
+body.dark-mode {
+  --background-color: #000; /* Définir la couleur de fond pour le mode sombre */
+  --text-color: #FFF; /* Définir la couleur du texte pour le mode sombre */
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.nav {
+  width: 100vw;
+  height: 100px;
+  background-color: #000;
+  position: sticky;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+#logo{
+  height: auto;
+  transition: transform 500ms;
+}
+.para {
+  margin-top: 250px;
+}
